@@ -12,21 +12,21 @@ export default function HomePage() {
       </section>
       <section className="section">
         <ImageBackgroundSection
-          header="Model S"
+          header="TATA"
           description="View inventory"
           backgroundImage={modelSImage}
         />
       </section>
       <section className="section">
         <ImageBackgroundSection
-          header="Model X"
+          header="Volkswagen"
           description="View inventory"
           backgroundImage={modelXImage}
         />
       </section>
       <section className="section">
         <ImageBackgroundSection
-          header="Cybertruck"
+          header="Hyundai"
           description="View inventory"
           backgroundImage={cybertruckImage}
         />

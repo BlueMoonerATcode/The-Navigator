@@ -5,10 +5,10 @@ import teslaChargerImage from '../assets/tesla-charger.jpg';
 import ImageGrid from '../components/ImageGrid/ImageGrid';
 
 const featureItems = [
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
+  { title: '1199 cc', description: 'Engine' },
+  { title: '115 Nm', description: 'Torque' },
+  { title: '72.41 - 86.63 bhp', description: 'Power' },
+  { title: '18.8 - 20.09 kmpl', description: 'Mileage' },
 ];
 
 export default function ModelSPage() {
@@ -16,7 +16,7 @@ export default function ModelSPage() {
     <div className="container">
       <section className="section">
         <ImageBackgroundSection
-          header="Model S"
+          header="TATA"
           description="View inventory"
           backgroundImage={modelSImage}
           featureItems={featureItems}
@@ -29,8 +29,8 @@ export default function ModelSPage() {
         <ImageGrid
           image1={modelSImage}
           image2={teslaChargerImage}
-          text1="Stay Connected - Instantly connect with multi-device Bluetooth, or fast charge devices with wireless and 36-watt USB-C charging."
-          text2="Sublime Sound - A 22-speaker, 960-watt audio system with Active Road Noise Reduction offers the best listening experience wherever you are."
+          text1="Presenting Tata PUNCH, the no-compromise SUV. The epitome of class that offers a blend of sporty dynamics and tough utility."
+          text2="This is for the fun-lovers, the thrill-seekers, the daily commuters. But above all, this is for the cautious ones. The Punch vibes with your need for safety."
         />
       </section>
     </div>

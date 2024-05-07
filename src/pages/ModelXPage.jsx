@@ -5,10 +5,10 @@ import teslaChargerImage from '../assets/tesla-charger.jpg';
 import ImageGrid from '../components/ImageGrid/ImageGrid';
 
 const featureItems = [
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
+  { title: '1199 cc', description: 'Engine' },
+  { title: '115 Nm', description: 'Torque' },
+  { title: '72.41 - 86.63 bhp', description: 'Power' },
+  { title: '18.8 - 20.09 kmpl', description: 'Mileage' },
 ];
 
 export default function ModelXPage() {
@@ -16,7 +16,7 @@ export default function ModelXPage() {
     <div className="container">
       <section className="section">
         <ImageBackgroundSection
-          header="Model X"
+          header="Volkswagen"
           description="View inventory"
           backgroundImage={modelXImage}
           featureItems={featureItems}
@@ -29,8 +29,8 @@ export default function ModelXPage() {
         <ImageGrid
           image1={modelXImage}
           image2={teslaChargerImage}
-          text1="Stay Connected - Instantly connect with multi-device Bluetooth, or fast charge devices with wireless and 36-watt USB-C charging."
-          text2="Sublime Sound - A 22-speaker, 960-watt audio system with Active Road Noise Reduction offers the best listening experience wherever you are."
+          text1="To put it simply, the ID.7 EV is the definition of a premium sedan. You’ll notice it's rather sleek. So, you’ll certainly stand out on the road."
+          text2="The cabin is especially spacious and comfortable. You know, for those longer commutes. And of course we had to add advanced technology. It is an EV, after all. Did we mention it’s coming in 2024?"
         />
       </section>
     </div>

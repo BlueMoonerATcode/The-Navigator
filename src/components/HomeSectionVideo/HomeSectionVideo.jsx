@@ -9,8 +9,8 @@ export default function HomeSectionVideo() {
       </video>
       <div className="overlay">
         <div>
-          <h1>Experience Tesla</h1>
-          <h5>Schedule a demo drive today</h5>
+          <h1>Experience Navigator</h1>
+          <h5>Schedule a Demo-Drive today!</h5>
         </div>
         <div>
           <button>Demo Drive</button>

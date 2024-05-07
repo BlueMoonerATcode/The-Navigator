@@ -11,6 +11,11 @@ import ShopPage from './pages/ShopPage';
 import { RecoilRoot } from 'recoil';
 import CartPage from './pages/CartPage';
 import { Toaster } from 'react-hot-toast';
+import Page2 from './pages/Page2';
+import Glossary from './pages/Glossary';
+import ChargingStatations from './pages/ChargingStations';
+import Newpage from './pages/Newpage';
+
 
 const router = createBrowserRouter([
   {
@@ -61,6 +66,39 @@ const router = createBrowserRouter([
       </App>
     ),
   },
+  {
+    path: '/login',
+    element: (
+      <App>
+        <Page2/>
+      </App>
+    ),
+  },
+  {
+    path: '/chargingstations',
+    element: (
+      <App>
+        <ChargingStatations />
+      </App>
+    ),
+  },
+  {
+    path: '/chargingstations/newpage',
+    element: (
+      <App>
+        <Newpage/>
+      </App>
+    ),
+  },
+  {
+    path: '/glossary',
+    element: (
+      <App>
+        <Glossary/>
+      </App>
+    ),
+  },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

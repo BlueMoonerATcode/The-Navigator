@@ -5,10 +5,10 @@ import teslaChargerImage from '../assets/tesla-charger.jpg';
 import ImageGrid from '../components/ImageGrid/ImageGrid';
 
 const featureItems = [
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
-  { title: '2.3s 0-60', description: 'very fast' },
+  { title: '1199 cc', description: 'Engine' },
+  { title: '115 Nm', description: 'Torque' },
+  { title: '72.41 - 86.63 bhp', description: 'Power' },
+  { title: '18.8 - 20.09 kmpl', description: 'Mileage' },
 ];
 
 export default function CyberTruckPage() {
@@ -16,7 +16,7 @@ export default function CyberTruckPage() {
     <div className="container">
       <section className="section">
         <ImageBackgroundSection
-          header="Cybertruck"
+          header="Hyundai"
           description="View inventory"
           backgroundImage={cybertruckImage}
           featureItems={featureItems}
